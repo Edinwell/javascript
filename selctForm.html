@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>フォーム選択</title>
+<script src="js/selectForm.js" type="text/javascript"></script>
+</head>
+<body>
+
+表示するフォームを選択してください。
+<form name="selectForm">
+	<input type="radio" name="selectedForm" value="text" id="radioText">テキスト
+	<input type="radio" name="selectedForm" value="radio" id="radioRadio">ラジオボタン
+	<input type="radio" name="selectedForm" value="checkbox" id="radioCheck">チェックボックス
+	<input type="radio" name="selectedForm" value="select" id="radioSelect">プルダウン
+</form>
+<hr>
+createElement / removeChild
+<div id="parentForm"></div>
+<hr>
+innerHtml
+<div id="inner"></div>
+<hr>
+display block/none
+	<input type="text" id="displaytext" style="display:none;">
+	<input type="radio" id="displayradio" style="display:none;">
+	<input type="checkbox" id="displaycheckbox" style="display:none;">
+	<select id="displayselect" style="display:none;"></select>
+<hr/>
+
+
+</html>
